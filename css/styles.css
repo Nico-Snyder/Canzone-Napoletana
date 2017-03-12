@@ -1,0 +1,45 @@
+body {
+  background-image: url(http://www.panoramio.com/photo/49430845);
+}
+
+
+footer {
+  position:fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background: hsla(117, 0%, 30%, 0.05);
+  border-radius: 5px;
+  box-shadow: 0 0 1em grey;
+  padding-top: 1rem;
+}
+
+.selecta {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.conjbox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.conjbox li{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  list-style-type: none;
+  width: 7rem;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+.boxtwo {
+  padding-left: 0;
+}
+
+.boxtwo li {
+  border-left-width: 0px;
+}
+
