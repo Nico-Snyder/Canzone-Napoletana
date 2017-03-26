@@ -1,7 +1,31 @@
-body {
-  background-image: url(http://www.panoramio.com/photo/49430845);
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
+.navbox {
+  display: flex;
+  align-items: center;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  list-style-type: none;
+}
+
+nav li {
+  text-decoration: none;
+  color: red;
+}
 
 footer {
   position:fixed;
@@ -17,12 +41,22 @@ footer {
 
 .selecta {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
 }
 
 .conjbox {
   display: flex;
   justify-content: flex-start;
+  
+}
+
+.conjbox ul {
+  padding-left: 0px;
 }
 
 .conjbox li{
@@ -41,5 +75,10 @@ footer {
 
 .boxtwo li {
   border-left-width: 0px;
+}
+
+.lowmiddle {
+  display: flex;
+  justify-content: center;
 }
 

@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Neapolitan Verb Conjugator</title>
-    <link rel="stylesheet" type="text/css" href="css/lang-selecta-styles.css">
+    <title>English to Neapolitan Verb Conjugator</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
-    <h1>Welcome! Benvenuti!</h1>
+    <div class="header">
+      <h1>Neapolitan Verb Conjugator</h1>
+      <div class="navbox">
+        <nav>
+          <ul>
+            <li><strong><a href="#">Songs</a></strong></li>
+            <li><strong><a href="#">Wiki</a></strong></li>      
+            <li><strong><a href="#">Pronunciation Notes</a></strong></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <hr>
-    <div>
-      <article>
-        <p>Select Your Language</p>
-        <p>
-          <a class=links href="langchoice/lang-eng.html" target="_blank">English</a>
-        </p>
-      </article>
-    </div>
+      <div class="selecta">
+        <form id="verbbox">
+          <input type="text" id="verbname" placeholder="Enter your verb here...">
+          <input type="submit" value="Conjugate" id="submit-btn">
+        </form>
+        <article>
+          Tense:
+        </article>
+        <select id="tenseselecta">
+          <option value="present">Present</option>
+          <option value="imperative">Imperative</option>
+          <option value="conditional">Conditional</option>
+          <option value="imperfect">Imperfect</option>
+          <option value="past">Past</option>
+          <option value="future">Future</option>
+        </select>
+      </div>
+      <div class="results">
+        
+      </div>
+      <div class="lowmiddle">
+        
+      </div>
+      
+      <div id="footnotes">
+        <div id="Translation-Definition"></div>
+      </div>
+<!--        -->
 
-    <div>
-      <article>
-        <p>Sceglia la tua lingua</p>
-        <p>
-          <a class=links href="langchoice/lang-it.html" target="_blank">Italiano</a>
-        </p>
-      </article>
-    </div>
-
-
-
+<!-- use this form to creat the conjugation box -->
+<!--       <div>
+        <div class="conjbox">
+          <ul>
+            <li>io</li>
+            <li>tu</li>
+            <li>isso/essa</li>
+            <li>nuje</li>
+            <li>vuje</li>
+            <li>isse/loro</li>
+          </ul>
+          <ul class="boxtwo">
+            <li>vaco</li>
+            <li>vaje</li>
+            <li>va</li>
+            <li>jammo</li>
+            <li>jate</li>
+            <li>vanno</li>
+          </ul>
+        </div>
+      </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
