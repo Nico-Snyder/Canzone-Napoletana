@@ -1,17 +1,35 @@
+body {
+  font-family: 'Audiowide', cursive;
+  background-color: rgba(224, 111, 111, 0.2);
+  margin: 0px;
+}
+
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: : center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(https://cache-graphicslib.viator.com/graphicslib/destination/naples-398598.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 15rem;
+  font-size: 1.75rem;
+  color: white;
 }
 
 .navbox {
-  display: flex;
-  align-items: center;
+  height: 3rem;
+  font-size: 1.5rem;
+  background-color: rgba(160, 170, 171, .6)
+
 }
 
-
+hr {
+  margin: 0px;
+}
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -20,15 +38,17 @@ nav ul {
   justify-content: space-between;
   width: 500px;
   list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: .5rem;
 }
 
 nav li {
   text-decoration: none;
-  color: red;
 }
 
 footer {
-  position:fixed;
+/*  position:fixed;*/
   left: 0px;
   bottom: 0px;
   height: 100px;
@@ -42,21 +62,29 @@ footer {
 .selecta {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(231, 150, 68, 0.3);
 }
 
 .results {
   display: flex;
   justify-content: center;
+  background-color: rgba(68, 150, 231, 0.3);
 }
 
 .conjbox {
   display: flex;
   justify-content: flex-start;
-  
+  margin: 3rem;
+  border: 2px solid black;
+  box-shadow: 1rem 1rem .5rem rgba(160, 170, 171, .6);
 }
 
 .conjbox ul {
   padding-left: 0px;
+  margin: 0px;
+  background-color: rgba(160, 170, 171, .6);
 }
 
 .conjbox li{
@@ -64,9 +92,21 @@ footer {
   align-items: center;
   border: 1px solid black;
   list-style-type: none;
+  text-shadow: -4px 7px 5px #2f6627;
+  font-family: 'Freckle Face', cursive;
+  font-size: 1.5rem;
   width: 7rem;
   height: 2rem;
   padding-left: 1rem;
+  border-left-width: 0px;
+  background-image: -webkit-gradient( linear, left top, right top,
+    color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f),
+    color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22),
+    color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2),
+    color-stop(1, #f22) ); color:transparent; -webkit-background-clip: text; background-clip: text;
 }
 
 .boxtwo {
@@ -75,6 +115,16 @@ footer {
 
 .boxtwo li {
   border-left-width: 0px;
+  text-shadow: -4px 7px 5px #2f6627;
+  font-family: 'Freckle Face', cursive;
+  background-image: -webkit-gradient( linear, left top, right top,
+    color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f),
+    color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22),
+    color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2),
+    color-stop(1, #f22) ); color:transparent; -webkit-background-clip: text; background-clip: text;
 }
 
 .lowmiddle {
